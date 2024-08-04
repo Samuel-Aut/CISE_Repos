@@ -26,7 +26,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Change to project directory
-        run: cd worksheet2
+        run: cd worksheet2/my-react-app
 
       - name: Install dependencies
         run: npm install
@@ -34,8 +34,8 @@ jobs:
 
       - name: Run the tests
         run: npm test
-        working-directory: worksheet2
+        working-directory: worksheet2/my-react-app
 
       - name: Build
         run: npm run build
-        working-directory: worksheet2
+        working-directory: worksheet2/my-react-app
