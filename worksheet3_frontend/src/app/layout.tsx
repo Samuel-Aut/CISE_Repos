@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "bootstrap/dist/css/bootstrap.css";
-import "./globals.css"; // Ensure this imports your Playfair Display font
+import "./globals.css"; // Playfair Display font
 import BootstrapClient from "@/components/BoostrapClient";
 
 export const metadata: Metadata = {
